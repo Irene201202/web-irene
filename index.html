@@ -8,9 +8,9 @@
 </head>
 <body>
     <header>
-        <h1>Página web de Irene</h1>
+        <h1>Página web de <span class="nombre">Irene</span></h1>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="#sobre-mi">Sobre mí</a></li>
                 <li><a href="#asignaturas">Asignaturas</a></li>
                 <li><a href="#ejercicios">Ejercicios</a></li>
@@ -18,29 +18,36 @@
         </nav>
     </header>
     <main>
-        <section id="sobre-mi">
+        <section id="sobre-mi" class="card">
             <h2>Sobre mí</h2>
-            <p>Soy Irene, profesora de matemáticas con pasión por la enseñanza y el aprendizaje. Me encanta ayudar a mis estudiantes a descubrir el mundo de las matemáticas de forma divertida y comprensible.</p>
+            <img src="https://img.icons8.com/ios-filled/100/4a90e2/teacher.png" alt="Profesora" class="avatar">
+            <p>
+                ¡Hola! Soy <strong>Irene</strong>, profesora de matemáticas con pasión por la enseñanza y el aprendizaje. 
+                Me encanta ayudar a mis estudiantes a descubrir el mundo de las matemáticas de forma divertida y comprensible.
+            </p>
         </section>
-        <section id="asignaturas">
+        <section id="asignaturas" class="card">
             <h2>Asignaturas</h2>
-            <ul>
-                <li>Matemáticas de Secundaria</li>
-                <li>Álgebra</li>
-                <li>Geometría</li>
-                <li>Estadística</li>
-                <li>Cálculo</li>
+            <ul class="asignaturas-lista">
+                <li>📐 Matemáticas de Secundaria</li>
+                <li>➗ Álgebra</li>
+                <li>📏 Geometría</li>
+                <li>📊 Estadística</li>
+                <li>∫ Cálculo</li>
             </ul>
         </section>
-        <section id="ejercicios">
+        <section id="ejercicios" class="card">
             <h2>Ejercicios</h2>
             <p>Aquí encontrarás ejercicios y recursos para practicar:</p>
-            <ul>
+            <ul class="ejercicios-lista">
                 <li><a href="#">Ejercicios de álgebra</a></li>
                 <li><a href="#">Problemas de geometría</a></li>
                 <li><a href="#">Cuestionarios de estadística</a></li>
             </ul>
         </section>
     </main>
+    <footer>
+        <p>&copy; 2025 Irene - Profesora de Matemáticas</p>
+    </footer>
 </body>
 </html>
